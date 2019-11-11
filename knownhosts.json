@@ -1,0 +1,25 @@
+{
+  "hosts": {
+    "alpha": {
+      "tcp_start_port": 9000,
+      "tcp_end_port": 9002,
+      "udp_start_port": 15000,
+      "udp_end_port": 15013,
+      "ip_address": "129.161.122.47"
+    },
+    "beta": {
+      "tcp_start_port": 9003,
+      "tcp_end_port": 9005,
+      "udp_start_port": 15003,
+      "udp_end_port": 15014,
+      "ip_address": "129.161.122.47"
+    },
+    "cql": {
+      "tcp_start_port": 9003,
+      "tcp_end_port": 9005,
+      "udp_start_port": 15003,
+      "udp_end_port": 15015,
+      "ip_address": "129.161.122.47"
+    }
+  }
+}
